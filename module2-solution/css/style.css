@@ -61,7 +61,7 @@ p {
 
 .row {
     width: 100%;
-    padding: 10px;
+    margin: 0 0 0 8px;
 }
 
 .col-lg-4,
