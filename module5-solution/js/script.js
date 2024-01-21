@@ -82,7 +82,6 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
       function (homeHtml) {
         var chosenCategoryShortName = "'" + chooseRandomCategory(categories).short_name + "'";
         var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml, "randomCategoryShortName", chosenCategoryShortName);
-        console.log(homeHtmlToInsertIntoMainPage);
         insertHtml("#main-content", homeHtmlToInsertIntoMainPage);
       },
       false); // False here because we are getting just regular HTML from the server, so no need to process JSON.
